@@ -7,9 +7,7 @@ app.get('/', (req, res) => {
   res.send('Hello World!');
 });
 
-const authRouter = express.Router();
-require('./routes/auth')(authRouter);
-
+const authRouter = require('./routes/auth');
 app.use('/auth', authRouter);
 
 app.listen(port, () => {
