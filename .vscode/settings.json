@@ -6,11 +6,10 @@
     "**/CVS": true,
     "**/.DS_Store": true,
     "**/Thumbs.db": true,
-    ".gitnore": true,
     "LICENSE": true,
     "README.md": true,
     ".vscode": true,
     "node_modules": true
   },
-  "hide-files.files": [".gitnore", "LICENSE", "README.md", ".vscode", "node_modules"]
+  "hide-files.files": ["LICENSE", "README.md", ".vscode", "node_modules"]
 }
