@@ -8,8 +8,8 @@
     "**/Thumbs.db": true,
     "LICENSE": true,
     "README.md": true,
-    ".vscode": true,
-    "node_modules": true
+    "node_modules": true,
+    ".vscode": true
   },
-  "hide-files.files": ["LICENSE", "README.md", ".vscode", "node_modules"]
+  "hide-files.files": ["LICENSE", "README.md", "node_modules", ".vscode"]
 }
